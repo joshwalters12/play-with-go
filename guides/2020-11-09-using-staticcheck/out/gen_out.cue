@@ -906,12 +906,12 @@ Steps: {
 	staticcheck_install: {
 		Stmts: [{
 			ComparisonOutput: """
+
+				go: downloading github.com/BurntSushi/toml v0.3.1
+				go: downloading golang.org/x/tools v0.0.0-20200410194907-79a7a3126eef
+				go: downloading golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
 				go: downloading honnef.co/go/tools v0.0.1-2020.1.6
 				go: found honnef.co/go/tools/cmd/staticcheck in honnef.co/go/tools v0.0.1-2020.1.6
-				go: downloading golang.org/x/tools v0.0.0-20200410194907-79a7a3126eef
-				go: downloading github.com/BurntSushi/toml v0.3.1
-				go: downloading golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
-
 				"""
 			Output: """
 				go: downloading honnef.co/go/tools v0.0.1-2020.1.6
@@ -954,5 +954,5 @@ Steps: {
 		Name:            "goversion"
 	}
 }
-Hash: "6c35367a185036ad8148339ae232e236411df673226c3eb5587ff583e3caf98b"
+Hash: "86836cf353c8a766fe5e5b45ef2a475f3939786c85a5f2a9caf2b1a23c8f4c53"
 Delims: ["{{{", "}}}"]

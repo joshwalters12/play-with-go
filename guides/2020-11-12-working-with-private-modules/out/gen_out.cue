@@ -56,8 +56,8 @@ Presteps: [{
 		    },
 		    {
 		      "Path": "github.com/play-with-go/preguide",
-		      "Version": "v0.0.2-0.20201112230714-c751dc0412a4",
-		      "Sum": "h1:FXhUsHjzpBC9Q0ywpnKhyk9mV12dnhxanUitpWHLKxI=",
+		      "Version": "v0.0.2-0.20201113105352-d12aca88d010",
+		      "Sum": "h1:oLGTuE9Je+5YnoohCrUTmkV8lN66syTNOawJnU8Prp4=",
 		      "Replace": null
 		    },
 		    {
@@ -825,5 +825,5 @@ Steps: {
 		Name:            "goversion"
 	}
 }
-Hash: "4e91e65256bf39c2b4bcbddd30a701c32299139c03dde919ca27d65c92e9e1cd"
+Hash: "4c267ec86bbff088a95dc717f0b09407a1b082ca41723967dd06ccff25e6c853"
 Delims: ["{{{", "}}}"]
